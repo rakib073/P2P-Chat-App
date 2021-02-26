@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/connectId"
+        android:title="Connect with"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/sendFileId"
+        android:title="Send Text File"
+        app:showAsAction="never"
+     />
+   <item
+       android:id="@+id/changeId"
+       android:title="Change Color"
+       app:showAsAction="never">
+       <menu>
+           <item
+               android:id="@+id/red"
+               android:title="red"
+               />
+           <item
+               android:id="@+id/yellow"
+               android:title="yellow"
+               />
+           <item
+               android:id="@+id/green"
+               android:title="green"
+               />
+           <item
+               android:id="@+id/blue"
+               android:title="blue"
+               />
+   </menu>
+</item>
+
+    <item
+        android:id="@+id/saveId"
+        android:title="Save"
+        app:showAsAction="never"
+        />
+</menu>
